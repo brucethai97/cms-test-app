@@ -1,8 +1,8 @@
 ---
-title: My First Blog Post
+title: Update content by cms
 sections:
-  - title: thai test
-    content: '1231231231'
-  - title: thai test
-    content: '2'
+  - title: section 1
+    content: 'content 1'
+  - title: section 2
+    content: 'content 2'
 ---
