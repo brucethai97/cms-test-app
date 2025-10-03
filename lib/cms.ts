@@ -18,11 +18,8 @@ export function getData(filePath: string): unknown {
 export function getPost(fileName: string) {
   try {
     const fullPath = path.join(postsDirectory, `${fileName}.md`);
-    console.log('fullPath', fullPath);
-
     const fileContents = fs.readFileSync(fullPath, 'utf8');
     const { data, content } = matter(fileContents);
-
     return {
       content,
       ...data,
