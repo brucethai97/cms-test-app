@@ -2,8 +2,7 @@
 title: My First Blog Post
 sections:
   - title: thai test
-    content: "1"
+    content: '1231231231'
   - title: thai test
-    content: |
-      2
+    content: '2'
 ---

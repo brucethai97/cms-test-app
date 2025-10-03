@@ -1,6 +1,9 @@
 backend:
   name: git-gateway
-  branch: main # or your default branch
+  repo: brucethai97/cms-test-app
+  branch: main
+  identity_url: https://auth.decapbridge.com/sites/543b5bb6-ad87-45d8-b715-fadd47c31ffb
+  gateway_url: https://gateway.decapbridge.com
 
 media_folder: 'public/images/uploads'
 public_folder: '/images/uploads'
@@ -15,6 +18,12 @@ collections:
     format: 'frontmatter'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
+      - label: 'Sections'
+        name: 'sections'
+        widget: 'list'
+        fields:
+          - { label: 'Section Title', name: 'title', widget: 'string' }
+          - { label: 'Content', name: 'content', widget: 'text' }
   - name: 'home'
     label: 'Home'
     folder: 'content/home'
