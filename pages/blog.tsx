@@ -12,6 +12,8 @@ interface BlogPageProps {
 }
 
 const BlogPage: React.FC<BlogPageProps> = ({ data }) => {
+  console.log("data", data);
+
   return (
     <div className="p-20">
       <h1>BLOG</h1>
