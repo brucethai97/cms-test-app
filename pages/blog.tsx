@@ -21,7 +21,8 @@ const BlogPage: React.FC<BlogPageProps> = ({ data }) => {
 };
 
 export const getStaticProps: GetStaticProps = async () => {
-  const data = getPost("blog1");
+  const content = JSON.stringify(getPost("blog1"));
+  const data = JSON.parse(content);
   return {
     props: {
       data,
