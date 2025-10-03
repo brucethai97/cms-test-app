@@ -1,0 +1,26 @@
+backend:
+  name: git-gateway
+  branch: main # or your default branch
+
+media_folder: 'public/images/uploads'
+public_folder: '/images/uploads'
+
+collections:
+  - name: 'blogs'
+    label: 'Blogs'
+    folder: 'content/blog'
+    create: true
+    slug: '{{slug}}'
+    extension: 'md'
+    format: 'frontmatter'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+  - name: 'home'
+    label: 'Home'
+    folder: 'content/home'
+    create: true
+    slug: '{{slug}}'
+    extension: 'md'
+    format: 'frontmatter'
+    fields:
+      - { label: 'Header', name: 'header', widget: 'string' }
