@@ -3,7 +3,7 @@ title: "The Future of AI in Recruitment: What to Expect in 2024"
 excerpt: Explore the latest trends and predictions for AI-powered recruitment
   tools and how they're transforming the hiring landscape.
 author: Sarah Johnson
-date: 2025-10-10
+date: 2025-11-11
 readTime: 5 min read
 category: AI & Technology
 tags:
