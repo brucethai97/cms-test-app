@@ -1,10 +1,10 @@
-import { getData } from '@/lib/cms';
+import { getPost } from '@/lib/cms';
 import React from 'react';
 import { GetStaticProps } from 'next';
+import ReactMarkdown from 'react-markdown';
 
 interface BlogData {
-  title?: string;
-  sections: { title: string; content: string }[];
+  [key: string]: any;
 }
 
 interface BlogPageProps {
@@ -12,21 +12,17 @@ interface BlogPageProps {
 }
 
 const BlogPage: React.FC<BlogPageProps> = ({ data }) => {
+  console.log('data blog:', data);
   return (
     <div className="p-20">
-      <h1 className="text-2xl font-bold">{data?.title || 'Blog Post'}</h1>
-      {data?.sections?.map((section, idx) => (
-        <div key={idx} className="mb-8">
-          <h2 className="text-lg font-bold mb-2">{section.title}</h2>
-          <p>{section.content}</p>
-        </div>
-      ))}
+      <h1>BLOG</h1>
+      <ReactMarkdown>{data?.content || 'No content available.'}</ReactMarkdown>
     </div>
   );
 };
 
 export const getStaticProps: GetStaticProps = async () => {
-  const data = getData('content/blog/blog1.md');
+  const data = getPost('blog1');
 
   return {
     props: {
