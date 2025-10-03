@@ -20,15 +20,15 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Excerpt', name: 'excerpt', widget: 'text' }
       - { label: 'Author', name: 'author', widget: 'string' }
-      - { label: 'Date', name: 'date', widget: 'datetime' }
+      - { label: 'Date', name: 'string', widget: 'string' }
       - { label: 'Read Time', name: 'readTime', widget: 'string' }
       - { label: 'Category', name: 'category', widget: 'string' }
       - label: 'Tags'
         name: 'tags'
         widget: 'list'
         field: { label: 'Tag', name: 'tag', widget: 'string' }
-      - { label: 'Featured', name: 'featured', widget: 'boolean' }
-      - { label: 'Published', name: 'published', widget: 'boolean' }
+      - { label: 'Featured', name: 'featured', widget: 'string' }
+      - { label: 'Published', name: 'published', widget: 'string' }
       - label: 'SEO'
         name: 'seo'
         widget: 'object'
