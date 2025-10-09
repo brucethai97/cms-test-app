@@ -1,18 +1,28 @@
 ---
-title: 'The Future of AI in Recruitment: What to Expect in 2024'
-excerpt: "Explore the latest trends and predictions for AI-powered recruitment tools and how they're transforming the hiring landscape."
-author: 'Sarah Johnson'
-date: '2024-01-15'
-readTime: '5 min read'
-category: 'AI & Technology'
-tags: ['AI', 'Recruitment', 'Technology', 'Future']
+title: "The Future of AI in Recruitment: What to Expect in 2024"
+excerpt: Explore the latest trends and predictions for AI-powered recruitment
+  tools and how they're transforming the hiring landscape.
+author: Sarah Johnson
+date: 2025-10-09
+readTime: 5 min read
+category: AI & Technology
+tags:
+  - AI
+  - Recruitment
+  - Technology
+  - Future
 featured: true
 published: true
 seo:
-  title: 'The Future of AI in Recruitment: What to Expect in 2024'
-  description: "Explore the latest trends and predictions for AI-powered recruitment tools and how they're transforming the hiring landscape."
-  keywords: ['AI recruitment', 'artificial intelligence', 'hiring technology', 'recruitment trends']
-image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80'
+  title: "The Future of AI in Recruitment: What to Expect in 2024"
+  description: Explore the latest trends and predictions for AI-powered
+    recruitment tools and how they're transforming the hiring landscape.
+  keywords:
+    - AI recruitment
+    - artificial intelligence
+    - hiring technology
+    - recruitment trends
+image: https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80
 ---
 
 ![AI Recruitment Illustration](https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80)
